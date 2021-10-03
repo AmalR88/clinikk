@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ClinikkTest</string>
+    <string name="app_name1">CLINIKK</string>
+    <string name="msg">Powered by Clinnik</string>
+    <string name="loading_msg">Searching network hospitals near you...</string>
+
+
+</resources>

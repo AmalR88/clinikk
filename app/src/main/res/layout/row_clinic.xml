@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:cardElevation="1dp"
+        android:background="@color/text_green"
+        app:cardCornerRadius="10dp">
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="match_parent"
+                android:layout_margin="16dp"
+                android:id="@+id/img_clinikk"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:visibility="gone"
+                android:background="@drawable/bg_with_radius">
+            </androidx.appcompat.widget.AppCompatImageView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:orientation="horizontal">
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="199dp"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:paddingTop="10dp"
+                    android:id="@+id/tv_clinikk"
+                    android:textColor="@color/text_black"
+                    android:textSize="16sp"
+                    android:layout_alignParentStart="true"
+                    android:textFontWeight="700"
+                    android:fontFamily="@font/manrope_medium"
+                    android:text="Namma clinnik JP Nagar">
+                </androidx.appcompat.widget.AppCompatTextView>
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="39dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_gravity="right"
+                    android:background="@drawable/ic_rating"
+                    android:layout_height="21dp"></androidx.appcompat.widget.AppCompatImageView>
+            </RelativeLayout>
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="119dp"
+                    android:src="@drawable/ic_time_distance"
+                    android:layout_height="19dp"></androidx.appcompat.widget.AppCompatImageView>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_address"
+                android:layout_width="wrap_content"
+                android:text="24/1, Puttenahalli Rd, JP Nagar 6th Phase, Ashta Laxmi Layout, JP Nagar 7th Phase, J. P. Nagar, Bengaluru, Karnataka 560078"
+                android:textSize="14sp"
+                android:textColor="@color/text_grey1"
+                android:fontFamily="@font/manrope_medium"
+                android:textFontWeight="500"
+                android:layout_margin="16dp"
+                android:layout_height="wrap_content">
+            </androidx.appcompat.widget.AppCompatTextView>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:orientation="horizontal">
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:text="Open Today : "
+                    android:textSize="14sp"
+                    android:textColor="@color/text_black"
+                    android:fontFamily="@font/manrope_medium"
+                    android:textFontWeight="700"
+                    android:layout_height="wrap_content">
+
+                </androidx.appcompat.widget.AppCompatTextView>
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:text="9:30am – 1pm, 4 – 8:30pm"
+                    android:textSize="14sp"
+                    android:textColor="@color/text_grey1"
+                    android:fontFamily="@font/manrope_medium"
+                    android:textFontWeight="500"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_height="wrap_content">
+
+                </androidx.appcompat.widget.AppCompatTextView>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="288dp"
+                android:id="@+id/img_get_directions"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_google_maps"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_height="36dp">
+
+            </androidx.appcompat.widget.AppCompatImageView>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+</androidx.appcompat.widget.LinearLayoutCompat>

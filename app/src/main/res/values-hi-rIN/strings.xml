@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">क्लिनिक टेस्ट</string>
+    <string name="app_name1">क्लिनिक</string>
+    <string name="msg">क्लिनिक द्वारा संचालित</string>
+    <string name="loading_msg">आपके आस-पास नेटवर्क अस्पताल खोज रहे हैं..</string>
+</resources>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="171dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_top_rectangle"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="134dp"
+            android:layout_marginTop="76dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_top_right_rectangle"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/img_back_arrow"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="23dp"
+            android:src="@drawable/ic_back"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+
+            android:layout_width="184dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="87dp"
+            android:src="@drawable/ic_text_img"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/img_clinikk"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="64.67dp"
+            android:layout_marginTop="23dp"
+            android:src="@drawable/ic_clinikk"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/img_green_circle"
+            android:layout_width="4.8dp"
+            android:layout_height="4.8dp"
+            android:layout_marginStart="78dp"
+            android:layout_marginTop="23dp"
+            android:src="@drawable/ic_green_circle"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:layout_width="20.47dp"
+            android:layout_height="20.47dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="100dp"
+            android:src="@drawable/img_sel_lang"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/ic_blue_circle"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/img_call"
+            android:layout_width="15.89dp"
+            android:layout_height="15.89dp"
+            android:layout_marginTop="24.05dp"
+            android:layout_marginEnd="28.05dp"
+            android:src="@drawable/ic_call"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:layout_width="11.76dp"
+            android:layout_height="9.24dp"
+            android:layout_marginStart="31.36dp"
+            android:layout_marginTop="235dp"
+            android:src="@drawable/ic_doctors_b"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="223.5dp"
+            android:src="@drawable/ic_text_img_doctors"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:layout_width="11.76dp"
+            android:layout_height="9.24dp"
+            android:layout_marginStart="31.36dp"
+            android:layout_marginTop="310dp"
+            android:src="@drawable/ic_centres"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="290dp"
+            android:src="@drawable/ic_text_img_centres"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:layout_width="11.76dp"
+            android:layout_height="9.24dp"
+            android:layout_marginStart="31.36dp"
+            android:layout_marginTop="375dp"
+            android:src="@drawable/ic_medicines"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="358dp"
+            android:src="@drawable/ic_text_img_tests"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:layout_marginTop="438dp"
+            android:src="@drawable/ic_bottom_rectangle"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <ImageView
+            android:id="@+id/img_find_centres"
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:layout_marginTop="438dp"
+            android:layout_marginBottom="100dp"
+            android:src="@drawable/ic_bottom_loc"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <TextView
+            android:id="@+id/text_clinikk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="22dp"
+            android:lineHeight="10.99px"
+            android:text="@string/app_name1"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
